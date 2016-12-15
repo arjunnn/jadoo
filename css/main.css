@@ -204,13 +204,13 @@ a:hover {
 .garbage {
   filter: blur(0.15vh);
   position: fixed;
-  top: 50vh;
+  top: 53vh;
   text-align: justify;
   margin: 0;
 }
 
 .garbage-left {
-  left: 45vw;
+  left: 50vw;
   font-size: 4.5vh;
 }
 
