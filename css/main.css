@@ -219,6 +219,10 @@ a:hover {
   font-size: 5vh;
 }
 
+pre {
+  font-family: 'VT323', monospace;
+}
+
 .nodisplay {
   display: none;
 }
