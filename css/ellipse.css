@@ -1,0 +1,110 @@
+.wrap {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  position: absolute;
+  -webkit-perspective: 4000px;
+  perspective: 4000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 55vh;
+  left: 15vw;
+}
+
+.circle {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  box-sizing: border-box;
+  opacity: 0;
+  width: 30vh;
+  height: 30vh;
+  border: 1vh solid green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: spin 20s ease-in-out alternate infinite;
+  animation: spin 20s ease-in-out alternate infinite;
+}
+
+.circle:nth-of-type(1) {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+.circle:nth-of-type(2) {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+.circle:nth-of-type(3) {
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+.circle:nth-of-type(4) {
+  -webkit-animation-delay: 2000ms;
+  animation-delay: 2000ms;
+}
+.circle:nth-of-type(5) {
+  -webkit-animation-delay: 2500ms;
+  animation-delay: 2500ms;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotateY(180deg) rotateX(360deg);
+  }
+  50% {
+    -webkit-transform: rotateY(540deg) rotateX(540deg);
+  }
+  75% {
+    -webkit-transform: rotateY(720deg) rotateX(900deg);
+  }
+  100% {
+    -webkit-transform: rotateY(900deg) rotateX(1080deg);
+    opacity: 1;
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotateY(0deg) rotateX(0deg);
+    transform: rotateY(0deg) rotateX(0deg);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: rotateY(180deg) rotateX(360deg);
+    transform: rotateY(180deg) rotateX(360deg);
+  }
+  50% {
+    -webkit-transform: rotateY(540deg) rotateX(540deg);
+    transform: rotateY(540deg) rotateX(540deg);
+  }
+  75% {
+    -webkit-transform: rotateY(720deg) rotateX(900deg);
+    transform: rotateY(720deg) rotateX(900deg);
+  }
+  100% {
+    -webkit-transform: rotateY(900deg) rotateX(1080deg);
+    transform: rotateY(900deg) rotateX(1080deg);
+    opacity: 1;
+  }
+}
+
+.circle1 {
+  height: 40vh;
+  width: 20vh;
+}
+
+.circle2 {
+  width: 45vh;
+  height: 25vh;
+}
+
+.circle3 {
+  height: 10vh;
+  width: 10vh;
+}
