@@ -1,11 +1,3 @@
-function onLoad(arg) {
-    document.addEventListener("keydown", function(e) {
-    if (e.keyCode == 13) {
-      toggleFullScreen();
-    }
-  });
-}
-
 function toggleFullScreen() {
   if (!document.fullscreenElement) {
     // document.getElementById('monitor').webkitRequestFullscreen();
@@ -34,4 +26,12 @@ function toggleFullScreen() {
   promptKey.innerHTML = "B C F E";
   promptKey.innerHTML += "\tB C E D";
   promptKey.innerHTML += "\tB C F E D C";
+}
+
+function onLoad(arg) {
+    document.addEventListener("keydown", function(e) {
+    if (e.keyCode == 13) {
+      toggleFullScreen();
+    }
+  });
 }

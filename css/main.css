@@ -53,6 +53,50 @@ body {
   padding: 10px 20px 10px 20px;
   border: 5px double #95e208;
   box-shadow: 1px 1px 1px #95e208;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.enter-text:hover {
+  background: #0a0f08;
+}
+
+.mobile-hint {
+  font-size: 2vw;
+  margin-top: 10px;
+  opacity: 0.7;
+  display: none;
+}
+
+@media (max-width: 768px) or (hover: none) {
+  .mobile-hint {
+    display: block;
+  }
+  
+  .enter-text h1 {
+    font-size: 5vw;
+  }
+  
+  .crt {
+    font-size: 3.5vw;
+  }
+  
+  .prompt {
+    font-size: 3vh;
+    bottom: 1vh;
+  }
+  
+  .header {
+    font-size: 3vh;
+  }
+  
+  .garbage-left {
+    font-size: 3vh;
+  }
+  
+  .garbage-right {
+    font-size: 3.5vh;
+  }
 }
 
 .background-image {
