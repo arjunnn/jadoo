@@ -68,7 +68,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) or (hover: none) {
+@media (max-width: 768px), (hover: none) {
   .mobile-hint {
     display: block;
   }
