@@ -62,7 +62,7 @@ body {
 }
 
 .mobile-hint {
-  font-size: 2vw;
+  font-size: 4vw;
   margin-top: 10px;
   opacity: 0.7;
   display: none;
@@ -74,28 +74,85 @@ body {
   }
   
   .enter-text h1 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   
   .crt {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   
   .prompt {
-    font-size: 3vh;
-    bottom: 1vh;
+    font-size: 2.5vw;
+    bottom: 0.5vh;
+    left: 0.5vw;
+    white-space: normal;
+    max-width: 98vw;
+    line-height: 1.2;
   }
   
   .header {
-    font-size: 3vh;
+    font-size: 2.5vw;
+    right: 0.5vw;
+  }
+  
+  .sending {
+    left: 2vw;
+    top: 3vh;
+    font-size: 3vw;
+  }
+  
+  .receiving {
+    left: 52vw;
+    top: 3vh;
+    font-size: 3vw;
+  }
+  
+  .sea {
+    width: 40vw;
+    height: 40vw;
+  }
+  
+  .sea-left {
+    left: 2vw;
+    top: 3.5vh;
+  }
+  
+  .sea-right {
+    left: 52vw;
+    top: 3.5vh;
+  }
+  
+  .wrap {
+    left: 25vw;
+    top: 45vh;
+    width: 50vw;
+    height: 50vw;
+  }
+  
+  .circle {
+    width: 20vw;
+    height: 20vw;
+    border: 0.5vw solid green;
   }
   
   .garbage-left {
-    font-size: 3vh;
+    left: 2vw;
+    font-size: 2.5vw;
+    top: 60vh;
   }
   
   .garbage-right {
-    font-size: 3.5vh;
+    right: 1vw;
+    font-size: 2.5vw;
+    top: 60vh;
+  }
+  
+  .line {
+    height: 0.5vh;
+  }
+  
+  .vline {
+    width: 95vh;
   }
 }
 
